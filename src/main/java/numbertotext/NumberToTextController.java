@@ -16,7 +16,6 @@ public class NumberToTextController {
             return "Hvad fanden, mand! Jeg kender ikke det satans nummer!";
         }
 
-
         return "Tallet er: " + i;
     }
 }
