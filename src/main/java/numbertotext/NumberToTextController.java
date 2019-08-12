@@ -12,9 +12,6 @@ public class NumberToTextController {
         int i;
         try {
             i = Integer.parseInt(number);
-            if (i == 1) {
-                return "Tallet er: en";
-            }
         } catch (NumberFormatException nfe) {
             return "Hvad fanden, mand! Jeg kender ikke det satans nummer!";
         }
